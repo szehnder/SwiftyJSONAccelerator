@@ -137,21 +137,18 @@ extension DefaultModelFileComponent {
   }
 
   func genDescriptionForPrimitive(_ name: String, _ type: String, _ constantName: String) -> String {
-    if type == VariableType.bool.rawValue {
-      return "dictionary[\(constantName)] = \(name)"
-    }
-    return "if let value = \(name) { dictionary[\(constantName)] = value }"
+    return "dictionary[\(constantName)] = \(name)"
   }
   func genDescriptionForPrimitiveArray(_ name: String, _ constantName: String) -> String {
-    return "if let value = \(name) { dictionary[\(constantName)] = value }"
+    return "dictionary[\(constantName)] = value"
   }
 
   func genDescriptionForObject(_ name: String, _ constantName: String) -> String {
-    return "if let value = \(name) { dictionary[\(constantName)] = value.dictionaryRepresentation() }"
+    return "dictionary[\(constantName)] = \(name)?.dictionaryRepresentation()"
   }
 
   func genDescriptionForObjectArray(_ name: String, _ constantName: String) -> String {
-    return "if let value = \(name) { dictionary[\(constantName)] = value.map { $0.dictionaryRepresentation() } }"
+    return "dictionary[\(constantName)] = \(name)?.map { $0.dictionaryRepresentation() }"
   }
 
   func genEncoder(_ name: String, _ type: String, _ constantName: String) -> String {
