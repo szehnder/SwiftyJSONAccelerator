@@ -166,7 +166,8 @@ struct MultipleModelGenerator {
                                                        modelMappingLibrary: jsonLibrary,
                                                        supportNSCoding: fromJSON["support_nscoding"].boolValue,
                                                        isFinalRequired: fromJSON["is_final_required"].boolValue,
-                                                       isHeaderIncluded: fromJSON["is_header_included"].boolValue)
+                                                       isHeaderIncluded: fromJSON["is_header_included"].boolValue,
+                                                       isDictionaryRepresentationEnabled: fromJSON["is_dictionary_representation_required"].boolValue)
 
         let response = config.isConfigurationValid()
         if response.isValid {

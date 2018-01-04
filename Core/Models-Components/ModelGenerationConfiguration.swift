@@ -32,6 +32,8 @@ struct ModelGenerationConfiguration {
     var isFinalRequired: Bool
     /// Should header be included.
     var isHeaderIncluded: Bool
+    /// Should create the dictionary representation.
+    var isDictionaryRepresentationEnabled: Bool
 
     /// Checks if the configuration is valid as per the rules of Swift.
     ///
@@ -45,6 +47,7 @@ struct ModelGenerationConfiguration {
 
     mutating func defaultConfig() {
         isHeaderIncluded = true
+        isDictionaryRepresentationEnabled = true
         isFinalRequired = true
         supportNSCoding = true
         modelMappingLibrary = .libSwiftyJSON

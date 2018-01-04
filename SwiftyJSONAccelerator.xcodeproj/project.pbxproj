@@ -108,6 +108,8 @@
 		93F174451BD0707D007E7DFC /* SJEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F174441BD0707D007E7DFC /* SJEditorViewController.swift */; };
 		93F174471BD0707D007E7DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F174461BD0707D007E7DFC /* Assets.xcassets */; };
 		93F174601BD070AA007E7DFC /* JSONHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1745F1BD070AA007E7DFC /* JSONHelper.swift */; };
+		B945FEA21FFE2FEB0083D773 /* DictionaryRepresentation.txt in Resources */ = {isa = PBXBuildFile; fileRef = B945FEA11FFE2FEB0083D773 /* DictionaryRepresentation.txt */; };
+		B945FEA31FFE2FF00083D773 /* DictionaryRepresentation.txt in Resources */ = {isa = PBXBuildFile; fileRef = B945FEA11FFE2FEB0083D773 /* DictionaryRepresentation.txt */; };
 		C667011B1BDCABCE009BA254 /* SwiftyJSONTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = C667011A1BDCABCE009BA254 /* SwiftyJSONTemplate.txt */; };
 		C667011D1BDCAF23009BA254 /* ObjectMapperTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = C667011C1BDCAF23009BA254 /* ObjectMapperTemplate.txt */; };
 		C667011F1BDCBE1F009BA254 /* NSCodingTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = C667011E1BDCBE1F009BA254 /* NSCodingTemplate.txt */; };
@@ -186,6 +188,7 @@
 		93F174501BD0707D007E7DFC /* SwiftyJSONAccelerator.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyJSONAccelerator.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F174561BD0707D007E7DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93F1745F1BD070AA007E7DFC /* JSONHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONHelper.swift; sourceTree = "<group>"; };
+		B945FEA11FFE2FEB0083D773 /* DictionaryRepresentation.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DictionaryRepresentation.txt; sourceTree = "<group>"; };
 		C667011A1BDCABCE009BA254 /* SwiftyJSONTemplate.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SwiftyJSONTemplate.txt; sourceTree = "<group>"; };
 		C667011C1BDCAF23009BA254 /* ObjectMapperTemplate.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ObjectMapperTemplate.txt; sourceTree = "<group>"; };
 		C667011E1BDCBE1F009BA254 /* NSCodingTemplate.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NSCodingTemplate.txt; sourceTree = "<group>"; };
@@ -267,6 +270,7 @@
 			children = (
 				93F5F2141D344CCC00FEB9C9 /* Library-Extension-Templates */,
 				9341A14E1BD6E7290048CE2C /* BaseTemplate.txt */,
+				B945FEA11FFE2FEB0083D773 /* DictionaryRepresentation.txt */,
 				C667011E1BDCBE1F009BA254 /* NSCodingTemplate.txt */,
 			);
 			path = Templates;
@@ -577,6 +581,7 @@
 				93C273CB1E150CEA00CC1AED /* Main.storyboard in Resources */,
 				C667011B1BDCABCE009BA254 /* SwiftyJSONTemplate.txt in Resources */,
 				C667011F1BDCBE1F009BA254 /* NSCodingTemplate.txt in Resources */,
+				B945FEA21FFE2FEB0083D773 /* DictionaryRepresentation.txt in Resources */,
 				93F174471BD0707D007E7DFC /* Assets.xcassets in Resources */,
 				C667011D1BDCAF23009BA254 /* ObjectMapperTemplate.txt in Resources */,
 				9341A14F1BD6E7290048CE2C /* BaseTemplate.txt in Resources */,
@@ -595,6 +600,7 @@
 				934E61A31E10587F00B7601B /* album.json in Resources */,
 				934E61A71E10587F00B7601B /* user.json in Resources */,
 				93D850F71D00D7C80023D573 /* TestJSONFile.sample in Resources */,
+				B945FEA31FFE2FF00083D773 /* DictionaryRepresentation.txt in Resources */,
 				93D850E01D00D2F60023D573 /* BaseTemplate.txt in Resources */,
 				93D850E21D00D2F60023D573 /* ObjectMapperTemplate.txt in Resources */,
 				93D850E11D00D2F60023D573 /* NSCodingTemplate.txt in Resources */,

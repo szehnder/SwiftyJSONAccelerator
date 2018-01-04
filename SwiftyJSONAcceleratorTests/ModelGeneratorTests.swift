@@ -68,7 +68,8 @@ class ModelGeneratorTests: XCTestCase {
                                                  modelMappingLibrary: library,
                                                  supportNSCoding: true,
                                                  isFinalRequired: true,
-                                                 isHeaderIncluded: true)
+                                                 isHeaderIncluded: true,
+                                                 isDictionaryRepresentationEnabled: true)
     }
 
     /**
@@ -214,7 +215,8 @@ class ModelGeneratorTests: XCTestCase {
             modelMappingLibrary: .libMarshal,
             supportNSCoding: true,
             isFinalRequired: true,
-            isHeaderIncluded: true)
+            isHeaderIncluded: true,
+            isDictionaryRepresentationEnabled: true)
         let m = ModelGenerator.init(testJSON(), config)
         let files = m.generate()
         runCheckForBaseModel(files, config, runMarshalInitialiserCheckForBaseModel(_:))
