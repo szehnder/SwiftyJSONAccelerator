@@ -140,7 +140,7 @@ extension DefaultModelFileComponent {
     return "dictionary[\(constantName)] = \(name)"
   }
   func genDescriptionForPrimitiveArray(_ name: String, _ constantName: String) -> String {
-    return "dictionary[\(constantName)] = value"
+    return "dictionary[\(constantName)] = \(name)"
   }
 
   func genDescriptionForObject(_ name: String, _ constantName: String) -> String {
